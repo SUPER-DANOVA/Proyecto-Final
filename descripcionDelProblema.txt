@@ -1,0 +1,4 @@
+La empresa TK-U,realiza cotizaciones a diario para sus posibles clientes/asegurados. El problema es que cientos de las cotizaciones que se realizan, 
+se realizan de forma manual, lo que causa retrasos en la entrega y pérdida de clientes potenciales, ya que solo generan como máximo 50 cotizaciones al día.
+Se solicita al programador que complete los requisitos para un cotizador automático, que incluye una serie de recargos extra basados en las condiciones del asegurado, 
+como la edad, el estado civil y la cantidad de hijos. Los recargos se aplican individualmente al asegurado y su cónyuge y se suman al precio base.

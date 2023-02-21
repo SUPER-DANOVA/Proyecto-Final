@@ -1,0 +1,24 @@
+Algoritmo para el cotizador automático de seguros:
+
+1) Definir el precio base del plan de seguro.
+2) Leer la edad del asegurado y verificar que sea mayor de 18 años.
+	Si es menor de 18 años, mostrar un mensaje de error y solicitarle que ingrese un valor valido.
+3) Preguntar si el asegurado está casado.
+	Si el asegurado no está casado, omitir este paso.
+	Si el asegurado está casado, leer la edad de su pareja y verificar que sea mayor de 18 años.
+		Si la edad es menor de 18 años, mostrar un mensaje de error y solicitarle que ingrese un valor valido.
+4) Leer la cantidad de hijos que tiene el asegurado.
+	Si no tiene hijos, omitir este paso.
+5) Aplicar los recargos correspondientes basados en el rango de edades del asegurado y su pareja, si está casado.
+6) Aplicar los recargos correspondientes a la cantidad de hijos si los tiene.
+7) Preguntar el numero de propiedades.
+	Si tiene propiedades, aplicar el recargo correspondiente a la cantidad de propiedades.
+8) Preguntar por el salario del asegurado.
+	Verificar que el valor ingresado sea un numero y tambien que no sea un valor nulo.
+	Si el valor es valido, aplicar el recargo correspondiente al salario del asegurado.
+9) Calcular el precio total del seguro sumando el precio base y los recargos.
+10) Mostrar el precio total del seguro.
+11) Mostrar un mensaje preguntando si desea salir del programa.
+	Si da click en aceptar, realizar otra cotizacion.
+	Si ingresa el valor "salir", finalizar el programa.
+	
